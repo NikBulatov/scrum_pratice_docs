@@ -1,50 +1,49 @@
 # Structure
 ## Project entities
 ### User
-- id
-- e-mail\*
-- password\*
-- username\*
-- type
+- id (int)
+- e-mail\* (str)
+- password\* (str)
+- username\* (str)
+- type (enum)
 #### User types
 - Admin
-- Registered user (account)
+- Registered user (default)
 - Unregistered user
 
 ### Account
-- id
-- user_id
-- first_name
-- last_name
-- gender
-- age
-- weight
-- height
-- lifestyle
+- id (int)
+- user_id (int)
+- first_name (str)
+- last_name (str)
+- gender (enum)
+- age (int)
+- weight (float)
+- height (float)
+- lifestyle (enum)
 
 ### Program
-- id
-- title
-- description
+- id (int)
+- title (str)
+- description (str)
 
 ### Workout
-- id
-- title
-- description (instruction)
+- id (int)
+- title (str)
+- description/instruction (str)
 
 ### Exercise
-- id
-- title
-- description (instruction)
-- picture(s)/video
+- id (int)
+- title (str)
+- description/instruction (str)
+- picture(s)/video (path to file)
 
 ## Pages
 
 ### Main page
-- Title and description (сайт персональных тренировок, благодаря нам ты сможешь достичь...)
+- Title and description (сайт персональных тренировок, благодаря нам ты сможешь достичь..., для этого необходимо войти или зарегистрироваться)
 - Sign up/Sign in
 - Last news/articles
-- *Shops?*
 
 ### Login page
 - email/username
@@ -63,7 +62,7 @@
 
 ### Create program
 - title
-- goal
+- target
 - user characteristics
 - frequency and quantity of workout
 ### Workout dairy
