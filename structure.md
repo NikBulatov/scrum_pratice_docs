@@ -20,19 +20,41 @@
 - age (int)
 - weight (float)
 - height (float)
-- lifestyle (enum)
+- lifestyle/level (enum)
+
+#### Level
+- Newer
+- Hobbyist
+- Pro
 
 ### Program
 - id (int)
 - title (str)
+- target (str)
+- location (enum)
+- level (enum)
+- frequency (int)
+- prefer_time (time)
+- start_date (date)
 - description (str)
+#### Location
+- Home
+- Street
+- Gym
 
 ### Workout
 - id (int)
 - title (str)
 - description/instruction (str)
+- exercises
+- status (enum)
 
-### Exercise
+#### Status
+- New
+- WIP (work in process)
+- Done
+
+### ~~Exercise~~
 - id (int)
 - title (str)
 - description/instruction (str)
@@ -69,11 +91,17 @@
 - Список тренировок, которые входят в программу
 - Можно отмечать выполнено/не выполнено, затраченное время 
 ### Admin UI
-Site' entities management
+Site' entities management by Django
 CRUD:
 - users
 - articles
 - exercises
 - workouts
 - programs
+
+### Article
+- title
+- author/sourse
+- public data
+- body
 

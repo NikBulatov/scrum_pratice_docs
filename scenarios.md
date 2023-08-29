@@ -41,7 +41,7 @@ Common information about registered user.
 - create/update info
 - delete chosen info
 ### Negative
-- input invalid age -> users' age could be from 14 to 100 -> message near input field + red border
+- input invalid age -> users' age could be from 14 to 1k00 -> message near input field + red border
 - input invalid weight -> users' weight could be from 30 to 150 -> message near input field + red border
 - input invalid height -> users' height could be from 130 to 250 -> message near input field + red border
 - input invalid first_name/last_name -> only string type -> message near input field + red border
