@@ -49,12 +49,9 @@
 Датой публикации
 
 # Role: Registered user
-# Personal account
-- Создать программу тренировок
-- Записать результат тренировки (выполнено/не выполнено)
-
-## Account info
-Common information about registered user.
+## Theme: Personal account
+### Account info
+Общая информация о зарегистрированном пользователе
 ### Positive
 - read info
 - create/update info
