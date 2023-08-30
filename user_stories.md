@@ -60,11 +60,11 @@
 - пароль, введя при этом старый пароль
 - физические характеристики (пол, возраст, рост, вес)
 - ФИО
-### Positive
+##### Positive
 - read info
 - create/update info
 - delete chosen info
-### Negative
+##### Negative
 - input invalid age -> users' age could be from 14 to 1k00 -> message near input field + red border
 - input invalid weight -> users' weight could be from 30 to 150 -> message near input field + red border
 - input invalid height -> users' height could be from 130 to 250 -> message near input field + red border
